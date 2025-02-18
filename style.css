@@ -113,7 +113,14 @@ img {
     justify-content: center;
     padding: 1.25em 1em;
     width: 100%;
+    cursor: pointer;
 }
+
+.btn:hover, .btn:focus {
+    background-color: var(--dark-green-color);
+    cursor: pointer;
+    outline: none;
+} 
 
 .cart-icon {
     max-width: 1rem;
